@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "dynamicore-app",
+    "slug": "dynamicore-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/img.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/img.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.billyrm.dynamicoreapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e2d29ad8-52d2-40a3-97a1-00c5dff8b57d"
+      }
+    }
+  }
+}
